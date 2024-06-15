@@ -7,9 +7,9 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .carousel-caption {
-            background: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
-            border-radius: 10px;            /* Скругленные углы */
-            padding: 10px;                  /* Отступы вокруг текста */
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 10px;
         }
         .card {
             display: flex;
@@ -24,12 +24,14 @@
             justify-content: space-between;
         }
         .card-img-top {
-            height: 300px; /* Установите фиксированную высоту для изображений */
-            object-fit: cover; /* Сохраняет пропорции изображения и заполняет контейнер */
+            height: 300px;
+            object-fit: cover;
         }
     </style>
 </head>
 <body>
+
+    <!-- Шапка сайта с меню -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Фантастические Фильмы</a>
@@ -53,6 +55,7 @@
     </header>
 
     <main>
+        <!-- Первая секция: Слайдер -->
         <div class="container mt-4">
             <div class="row">
                 <div class="col-12">
@@ -97,6 +100,7 @@
                 </div>
             </div>
 
+            <!-- Вторая секция: Карточки -->
             <div class="row mt-4">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card">
@@ -130,6 +134,7 @@
                 </div>
             </div>
 
+            <!-- Третья секция: Аккордеон -->
             <div class="row mt-4">
                 <div class="col-12">
                     <div class="accordion" id="accordionExample">
@@ -181,6 +186,7 @@
         </div>
     </main>
 
+    <!-- Подвал сайта -->
     <footer class="bg-light text-center text-lg-start mt-4">
         <div class="container p-4">
             <div class="row">
